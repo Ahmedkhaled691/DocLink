@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --bg-color:rgb(255, 255, 255);
+    --h2-color : black;
+    --item-bg: rgb(255, 255, 255);
+    --form-bg :rgb(214, 227, 253);
+    --txt-clr:rgb(179, 179, 179);
+    --footer-bg:rgb(81, 137, 254);
+}
+.footerBg{
+background-color: var(--footer-bg);
+}
+body.dark{
+    --bg-color:rgb(5, 28, 57);
+    --h2-color : rgb(255, 255, 255);
+    --item-bg: rgb(38, 50, 71);
+    --form-bg :rgb(38, 50, 71);
+    --txt-clr:rgb(157, 159, 162);
+    
+}
+body{
+    background-color: var(--bg-color);
+}
+h5,
+h2{
+    color: var(--h2-color);
+}
+.cardbg{
+    background-color: var(--item-bg) ;
+}
+.nav-link{
+    color: var(--txt-clr);
+}
+.NavIco{
+    border-left: 1px solid #0D6EFD;
+    border-right: 1px solid #0D6EFD;
+}
+.sec1{
+    background-image: url(../Images/Bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% ,100%;
+}
+
+.doc{
+    background-image: url(../Images/Group\ 8679.png);
+    background-repeat: no-repeat;
+    background-size: 100% ,100%;
+}
+.inputs{
+    background-color: var(--form-bg);
+}
+.bgg{
+    height: 500px;
+    width: 500px;
+    border-radius: 17px;
+    background-color: #0D6EFD;
+    position: absolute;
+    top: 0;
+    left:-50px ;
+    z-index: 1;
+}
+.backcolor1{
+    background-color: rgb(231, 238, 252);
+    border-radius: 15px;
+}
+.backcolor2{
+    background-color: rgba(252, 213, 95,0.3);
+    border-radius: 15px;
+}
+.backcolor3{
+    background-color:rgb(235, 248, 247);
+    border-radius: 15px;
+}
+.backcolor4{
+    background-color: rgb(250, 227, 227);
+    border-radius: 15px;
+}
+.overlay-mf {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(4, 74, 251, 0.4);
+}
+.Doc-Bg{
+    height: 550px;
+    background-image: url(../Images/carbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% , 100%;
+}
+
+.Line p::before{
+        content: " ";
+        height: 4px;
+        position: absolute;
+        background-color:#0078ff;
+        width: 97%;
+        left: -30%;
+        bottom: -20%;
+}
+.Navicoo{
+    cursor: pointer;
+}
+
+.color{
+    background-color: rgb(1, 18, 34) !important;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+    
+  }
+ 
+  .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #919191;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  
